@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+ 
+  background-color: black;
+  color: #ffffffa6;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  background: transparent;
+  color: #ffffffa6;
+  border-top: none;
+  width: 500px;
+  padding: 5px;
+}
+.item{
+  width: 500px;
+}
+button {
+  background: transparent;
+  color: #ffffffa6;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  input{
+     width:200px;
+  }
+  .item{
+    width: 200px;
+  }
+}
